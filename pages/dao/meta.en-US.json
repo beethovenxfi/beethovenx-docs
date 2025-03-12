@@ -1,6 +1,8 @@
 { 
-  "framework": "Overview",
+  "framework": "Governance Framework",
   "music-directors": "Music Directors",
   "guide-tones": "Guide Tones",
-  "delegates": "Delegates"
+  "delegates": "Delegates",
+  "treasury": "Treasury",
+  "operating-agreement": "OA"
 }
