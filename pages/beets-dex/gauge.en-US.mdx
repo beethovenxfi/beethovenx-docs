@@ -1,0 +1,35 @@
+# Gauge Vote
+
+The gauge vote is an efficient mechanism for directing BEETS emissions to Liquidity Pools on the Sonic DEX. Users who hold Beets governance token, maBEETS, unlock the ability to participate in a vote to determine which specific pools the BEETS emissions flow to every two weeks. Protocols/DAOs offer gauge bounties for users to vote for their pools, users can then vote on snapshot and claim these rewards every two weeks. 
+
+## Protocol Bounties and Gauge Caps
+
+Since the implementation of [BIP-24](https://snapshot.org/#/beets.eth/proposal/0xe1489639baffe5bb8117da677349a67e80197ab6d34d5efb1b49786ca76cf83a), Beets also offers gauge bounties for users to vote for gauge pools that significantly contribute to protocol fees. Currently, the threshold for protocol provided bounties is set at 0.2% of the previous epoch fees. The bounties that these pools receive are calculated as a weighted average of their contribution towards protocol fees \* total beets that flow to maBEETS holders as gauge incentives.
+
+## How does it work??
+
+-   BEETS total emissions and distribution is set by the Quarterly Budget
+-   BEETS farm emissions are decided by the maBEETS gauge vote bi-weekly.
+-   Voting takes place via Snapshot as a weighted vote. You need maBEETS on Beets to qualify.
+-   Voting begins every other Thursday.
+-   Protocols / DAOs announce their gauge incentives, these are shared on the Beets discord and Twitter.
+-   Users select the pool they would like to vote for on Snapshot.
+-   Users earn a percentage of gauge incentives in correlation to the ratio of their vote within the pool they voted for.
+-   Gauge incentives will either be airdropped into users wallets or claimed via third party sites.
+-   The following Wednesday, the updated farm emissions go live.
+
+## What are the requirements to add a pool to the gauge?
+
+Community pools can be requested to add to the gauge vote, provided the following requirements are met:
+
+-   TVL above 5k.
+-   The maximum weight discrepancy of the pool is 80/20.
+-   Pool must be owned by the Beethoven multi-sig, this is the default owner when creating a pool through the UI
+-   The pool contract needs to be verified
+-   The liquidity committee reserves the right to reject a pool for any reason and to kill any pool’s allocation if deemed malicious
+
+## Useful third-party Sites
+
+[Beets Wars](https://www.beetswars.live/)
+
+[Hidden Hand](https://hiddenhand.finance/beethovenx)

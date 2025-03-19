@@ -1,0 +1,21 @@
+# Balancer Technology 
+
+The Beets DEX, powered by Balancer technology, offers a modular and customizable framework for liquidity management, breaking free from the limitations of traditional, rigid AMM designs. With support for custom pool types, dynamic swap fees, and hooks, Beets enables users and partners to harness liquidity solutions tailored to their unique objectives.
+
+### Customizable Pool Architecture
+
+At its core, the Beets DEX leverages Balancer’s modular architecture, composed of three strategic components:
+
+- **Router** – Serves as the entry point for users and developers, simplifying liquidity operations and supporting advanced functionalities like batch routing.
+- **Vault** – Centralizes liquidity and accounting, allowing efficient management of token balances while reducing operational complexity.
+- **Pool** – The layer where unique math and liquidity strategies are applied, enabling projects to design customized liquidity behaviors and configurations.
+
+## Hooks
+Hooks introduce a framework to extend existing pool types at various key points throughout the pool’s lifecycle. Hooks can execute actions during pool operation and compute a dynamic swap fee. Hooks are implemented as standalone contracts that can have their own internal logic and state. One hook contract can facilitate many pools (and pool types).
+
+Hooks allows developers to:
+
+* Customize Pool Behavior: Hooks enable the customization of pool logic at various stages of the pool lifecycle, offering the ability to create specialized AMM strategies.
+* Enhance Liquidity Management: With hooks, developers can implement dynamic fee structures, innovative yield strategies, and more, optimizing liquidity for different use cases.
+* Expand the Design Space: Whether it’s integrating new financial mechanisms or creating unique user experiences, hooks open up a vast design space for experimentation and innovation.
+
