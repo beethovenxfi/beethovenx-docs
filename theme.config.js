@@ -73,7 +73,7 @@ export default {
     feedbackLabels: 'feedback',
     logo: () => <Logo height={56} />,
     head: ({ title, meta }) => {
-        const ogImage = meta.image || 'https://github.com/defi-naly/images/blob/main/beets6.png?raw=true';
+        const ogImage = meta.image || '/images/beets6.png';
 
         return (
             <>
