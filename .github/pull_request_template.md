@@ -21,8 +21,6 @@ In order to make sure your PR is handled as smoothly as possible we request that
 
 <!-- What're you changing? -->
 
-- [ ] Adding new page
-- [ ] Updating existing documentation
-- [ ] Other updates
-
-
+-   [ ] Adding new page
+-   [ ] Updating existing documentation
+-   [ ] Other updates
